@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
 /***************************
@@ -24,7 +25,7 @@
 ****************************/
 .grid {
   display: grid;
-  background-color: salmon;
+  /* background-color: salmon; */
   width: 43rem;
   grid-template-columns: 10rem 10rem 10rem 10rem;
   grid-template-rows: 10rem 10rem;
@@ -48,6 +49,7 @@
   height: 70%;
   background-color: hsl(246, 80%, 60%);
   border-radius: 15px;
+  font-weight: 300;
 }
 
 .author-img {
@@ -92,4 +94,120 @@
 
 .bottom--card__link:hover {
   color: white;
+}
+
+/***************************
+          WORK--CARD
+****************************/
+.card {
+  border-radius: 15px;
+}
+
+.card--work {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.card--play {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.card--study {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.card--exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.card--social {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.card--selfcare {
+  background-color: hsl(43, 84%, 65%);
+}
+
+/***************************
+        WORK--CARD__TOP
+****************************/
+
+.card__top {
+  height: 20%;
+  position: relative;
+  overflow: hidden;
+}
+
+.card__icon {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 10px;
+  top: -7px;
+}
+
+.card__icon--work {
+  background-image: url(/images/icon-work.svg);
+}
+
+/* .card__icon--play {
+  background-image: url(/images/icon-play.svg);
+} */
+
+/***************************
+     WORK--CARD__BOTTOM
+****************************/
+.card__bottom {
+  background-color: hsl(235, 46%, 20%);
+  height: 82%;
+  border-radius: 15px;
+}
+
+.card__bottom__head {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.card__bottom__link {
+  text-decoration: none;
+  color: white;
+}
+
+.card__bottom__link:active {
+  color: white;
+}
+
+.card__bottom__link:visited {
+  color: white;
+}
+
+.card__bottom__link:hover {
+  color: hsl(236, 100%, 87%);
+}
+
+.dot {
+  position: relative;
+}
+
+.dot__link__element {
+  position: absolute;
+  top: -13px;
+  right: 3px;
+  font-size: 25px;
+}
+
+.card__bottom__time {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1rem;
+  color: white;
+  font-size: 30px;
+}
+
+.last__week {
+  font-size: 0.8rem;
+  color: hsl(236, 100%, 87%);
 }
