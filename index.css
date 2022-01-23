@@ -181,6 +181,7 @@
   background-color: hsl(235, 46%, 20%);
   height: 82%;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .card__bottom:hover {
