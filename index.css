@@ -12,12 +12,11 @@
           CONTAINER 
 ****************************/
 .container {
-  height: 1200px;
-  /* width: 1600px; */
   background-color: hsl(226, 43%, 10%);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 /***************************
@@ -31,7 +30,6 @@
   grid-template-rows: 10rem 10rem;
   margin: 20rem;
   gap: 1rem;
-  align-content: center;
 }
 
 /***************************
@@ -149,31 +147,31 @@
 }
 
 .card__icon--work {
-  background-image: url(/images/icon-work.svg);
+  background-image: url(images/icon-work.svg);
 }
 
 .card__icon--play {
-  background-image: url(/images/icon-play.svg);
+  background-image: url(images/icon-play.svg);
 }
 
 .card__icon--study {
-  background-image: url(/images/icon-study.svg);
+  background-image: url(images/icon-study.svg);
 }
 
 .card__icon--exercise {
-  background-image: url(/images/icon-exercise.svg);
+  background-image: url(images/icon-exercise.svg);
   height: 35px;
   top: 3px;
   right: 8px;
 }
 
 .card__icon--social {
-  background-image: url(/images/icon-social.svg);
+  background-image: url(images/icon-social.svg);
   height: 60px;
 }
 
 .card__icon--selfcare {
-  background-image: url(/images/icon-self-care.svg);
+  background-image: url(images/icon-self-care.svg);
 }
 
 /***************************
